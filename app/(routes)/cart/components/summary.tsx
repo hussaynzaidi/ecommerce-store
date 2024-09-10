@@ -22,7 +22,7 @@ const Summary = () => {
         toast.error("Something went wrong")
         removeAll()
     }
-  }, [searchParams])
+  }, [searchParams, removeAll])
   
   const totalPrice = items.reduce((total, item) => {
     return total + Number(item.price);

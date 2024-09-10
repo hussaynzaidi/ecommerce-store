@@ -5,7 +5,6 @@ import IconButton from "@/app/components/ui/icon-button";
 import { Color, Size } from "@/types";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Plus, X } from "lucide-react";
-import { Tulpen_One } from "next/font/google";
 import React, { useState } from "react";
 import Filter from "./filter";
 
